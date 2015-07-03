@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It eliminated all unchanged text, leaving only relevant text to view. Even if you were told
+the location of all the changes, looking at it manually would require significantly more effort.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+You retain all code ever written for the project. If you find it necessary to revert, it is simple.
+Additionally, it is possible to view the progress step by step, rather than wondering why decisions 
+were made.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+The cons of choosing is human error. Too often and the history is cluttered with less meaningful commits,
+too infrequently poses the risk of too substantial of a change to be understood quickly between versions.
+The pros of choosing is personally deciding when the amount of work done is enough to warrant a commit,
+to become a new version.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Google Docs does not advertise itself as a version control system. It does so out of convenience, but
+it doesn't promise ease of use for those wantint to manipulate multiple related files. Git, however,
+does advertise itself in such a way, and has more functionality to contain closesly related files together.
+Thus it makes sense for Git to have such functionality, as code files are more likely to be related to
+one another.
+
+How can you use the commands git log and git diff to view the history of files?
+The log will give you all the versions, diff will show the what changed between any two.
+
+How might using version control make you more confident to make changes that could break something?
+Because you can always revert to a previous version.

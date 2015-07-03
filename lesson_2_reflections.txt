@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+A .git file is created, which tracks future changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is an intermediary. It contains only those files from the working directory you have entered, and
+the repository contains none of them. Beyond the simple answer, it allows a moment to reflect on possible
+mistakes, why would it be useful? The only difference is the working directory has those versions and
+the repository doesn't. It is a bit of abstraction.
