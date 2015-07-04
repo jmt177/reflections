@@ -15,3 +15,5 @@ Intervew:context switching. New feature, fix bug, time to create a new branch. M
 How do the diagrams help you visualize the branch structure?
 diagrams show the history of commits, and how different branches are related. Also, what can and cannot be reached from a particular commit.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is adding together the work done in both. The commit to retain the most of is the one the other is merged into. It is represented in the diagram in such a way so it makes sense and follows how git stores and accesses past commits.
