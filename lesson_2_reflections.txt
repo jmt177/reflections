@@ -7,3 +7,8 @@ mistakes, why would it be useful? The only difference is the working directory h
 
 How can you use the staging area to make sure you have one commit per logical change?
 by comparing the working directory to the staging area, to determine what has been changed that you want to commit, then add those to the staging area. Again, run git diff --staged to view the difference between the staging area and the most recent commit to see a final comparison before you decide to commit. Naturally, if you strive for one logical change per commit it is here you would see if you are true to that idea.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Trying out conflicting ways of doing the same thing to see which is better. Then the copies exist to view, even if they are never chosen. Also serves to better keep track of multiple versions in general, makes updating more logical to follow and easier to understand. Essentially, branch is good for alterations.
+Intervew:context switching. New feature, fix bug, time to create a new branch. Mast branch is production quality, development branch where active work takes place. experimental branch with things being worked on but known and expected to break.
+
