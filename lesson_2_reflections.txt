@@ -12,3 +12,6 @@ What are some situations when branches would be helpful in keeping your history 
 Trying out conflicting ways of doing the same thing to see which is better. Then the copies exist to view, even if they are never chosen. Also serves to better keep track of multiple versions in general, makes updating more logical to follow and easier to understand. Essentially, branch is good for alterations.
 Intervew:context switching. New feature, fix bug, time to create a new branch. Mast branch is production quality, development branch where active work takes place. experimental branch with things being worked on but known and expected to break.
 
+How do the diagrams help you visualize the branch structure?
+diagrams show the history of commits, and how different branches are related. Also, what can and cannot be reached from a particular commit.
+
