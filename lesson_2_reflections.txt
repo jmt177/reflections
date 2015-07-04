@@ -6,3 +6,10 @@ It is an intermediary. It contains only those files from the working directory y
 the repository contains none of them. Beyond the simple answer, it allows a moment to reflect on possible
 mistakes, why would it be useful? The only difference is the working directory has those versions and
 the repository doesn't. It is a bit of abstraction.
+
+How can you use the staging area to make sure you have one commit per logical change?
+by comparing the working directory to the staging area, to determine what has been changed that you
+want to commit, then add those to the staging area. Again, run git diff --staged to view the 
+difference between the staging area and the most recent commit to see a final comparison before you
+decide to commit. Naturally, if you strive for one logical change per commit it is here you would see
+if you are true to that idea.
