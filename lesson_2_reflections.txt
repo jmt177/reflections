@@ -17,3 +17,6 @@ diagrams show the history of commits, and how different branches are related. Al
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result is adding together the work done in both. The commit to retain the most of is the one the other is merged into. It is represented in the diagram in such a way so it makes sense and follows how git stores and accesses past commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging removes a lot of tedious, generally unnecessary work. However, it does run the risk of mistakes slipping through, as a machine does not always recognize whether or not to include changes. Manually mergine is a great deal of effort and allows for human error at all times, but also removes the chance of the machine automatically combining in ways that may be unwanted.
