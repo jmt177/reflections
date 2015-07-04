@@ -12,3 +12,6 @@ To be able to work offline with the most up to date version you can. When checki
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I would likely use Google Docs. Everything would be easier in terms of doing anything without the GitHub learning curve. Everything would be more difficult as it would no longer be automated.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When fixing a bug, adding a new feature, or heavily refactoring. Creating a new branch allows the stable version to persist while changes are made in the branch, which are not guaranteed to ever work properly. Not much benefit to making major edits to the master branch.
